@@ -3,11 +3,8 @@ var mySound = new buzz.sound("rhodes_loop.wav");
 function setup() {
   createCanvas(windowWidth, windowHeight);
   smooth();
-<<<<<<< HEAD
   //mySound.play().fadeIn().loop();
-=======
-  	//mySound.play().fadeIn().loop();
->>>>>>> b4cdd2f0d0b651725fe64b688568f74e9a6a74ab
+  //mySound.play().fadeIn().loop();
 
 }
 

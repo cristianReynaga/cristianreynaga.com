@@ -29,9 +29,17 @@
       color:purple;
     }
     address{
-      margin-top: 1em;
-      padding-top: 1em;
+     position: fixed;
+     bottom: 0;
+      width: 100%;
+      right: 0;
+      margin-top: .5em;
+      padding-top: .5em;
+      list-style: none;
       border-top: thin dotted
+    }
+    address a{
+      text-decoration: none;
     }
     h1{
     font-family: Helvetica, Arial;
@@ -41,7 +49,6 @@
     h2{
       position: relative;
       top: -1.5em; 
-
       font-family: Helvetica, Arial;
       font-weight: normal;
       font-style: italic;
