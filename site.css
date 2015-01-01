@@ -1,0 +1,50 @@
+    body{
+      padding-left: 11em;
+      font-family: Helvetica, Arial;
+      color: black;
+      background-color: #E8E6A0
+    }
+    ul.navBar{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top:2em;
+      left:1em;
+      width: 9em
+    }
+    ul.navBar li{
+      background: white;
+      margin: 0.5em 0;
+      padding: 0.3m;
+      border-right: 1em solid black
+    }
+    ul.navBar a{
+      text-decoration: none; 
+    }
+    a:link{
+      color: blue
+    }
+    a:visited{
+      color:purple;
+    }
+    address{
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: thin dotted
+    }
+    h1{
+    font-family: Helvetica, Arial;
+    color:#555555;
+    }
+
+    h2{
+      position: relative;
+      top: -1.5em; 
+
+      font-family: Helvetica, Arial;
+      font-weight: normal;
+      font-style: italic;
+      font-size: .8em;
+      color:#222222;
+    }
