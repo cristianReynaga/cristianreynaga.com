@@ -4,29 +4,39 @@
       color: black;
       background-color: #E8E6A0
     }
-    ul.navBar{
+
+    #header{
+      position: absolute;
+      top: 0;
+      left:0;
+      width: 500;
+    }
+    #menu{
+      position: absolute;
+      top: 0;
+      right:0;
+      width: 500;
+
       list-style-type: none;
       padding: 0;
       margin: 0;
-      position: absolute;
       top:2em;
-      left:1em;
-      width: 9em
+      
     }
-    ul.navBar li{
+    #menu li{
       display: inline;
       background: white;
-      margin: 0.5em 0;
-      padding: 0.3m;
+      margin-right: 3em ;
+      padding-right: 3em;
       border-right: 1em solid black
     }
-    ul.navBar a{
+    #menu a{
       text-decoration: none; 
     }
-    a:link{
+    #menu a:link{
       color: blue
     }
-    a:visited{
+    #menu a:visited{
       color:purple;
     }
 
@@ -60,7 +70,7 @@
     #footer a:visited{
       color:#aaaaaa;
     }
-
+    /*
     h1{
     font-family: Helvetica, Arial;
     color:#555555;
