@@ -47,14 +47,21 @@
       border-top: thin dotted
     }
     #footer li{
-      font-size: .8em;
+      font-size: .7em;
       display: inline;
-      padding-right:1em 
-
+      padding-right:1em;
+      color:#ffffff
     }
     #footer a{
-      text-decoration: none;
+      text-decoration: none; 
     }
+    #footer a:link{
+      color:#aaaaaa;
+    }
+    #footer a:visited{
+      color:#aaaaaa;
+    }
+
     h1{
     font-family: Helvetica, Arial;
     color:#555555;
