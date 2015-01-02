@@ -28,17 +28,22 @@
     a:visited{
       color:purple;
     }
-    address{
+
+    p#section {
+      border-width: 1px solid red;
+    }
+
+    #footer{
      position: fixed;
      bottom: 0;
       width: 100%;
       right: 0;
-      margin-top: .5em;
+      margin-top: 1em;
       padding-top: .5em;
       list-style: none;
       border-top: thin dotted
     }
-    address a{
+    #footer a{
       text-decoration: none;
     }
     h1{
