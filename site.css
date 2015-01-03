@@ -1,6 +1,6 @@
     body{
       padding-left: 11em;
-      font-family: Helvetica, Arial;
+      font-family: Verdana, Helvetica, Arial, sans-serif;
       color: black;
       background-color: #E8E6A0
     }
@@ -11,18 +11,22 @@
       left:0;
       width: 500;
     }
+    #header h1{
+      font-family: Helvetica, Arial;
+      color:#555555;
+    }
+   
     #menu{
       position: absolute;
       top: 0;
       right:0;
       width: 500;
-
       list-style-type: none;
       padding: 0;
       margin: 0;
       top:2em;
-      
     }
+
     #menu li{
       display: inline;
       background: white;
@@ -41,47 +45,40 @@
     }
 
     #section {
+      position: relative;
+      float: 0;
       border-width: 1px solid red;
     }
 
     #footer{
-     position: fixed;
+
+      font-family: serif;
+      font-style: italic;
+       position: fixed;
+     height: 3em;
      text-align: right;
+     padding-right: 2.5em;
+     
      bottom: 1em;
       width: 100%;
       right: 0;
       margin-top: 1em;
-      padding-top: .5em;
+      padding-top: 1em;
       list-style: none;
       border-top: thin dotted
     }
     #footer li{
-      font-size: .7em;
+      font-size: 1.1em;
       display: inline;
-      padding-right:3em;
       color:#ffffff
     }
     #footer a{
       text-decoration: none; 
     }
     #footer a:link{
-      color:#aaaaaa;
+      color:#000000;
     }
     #footer a:visited{
-      color:#aaaaaa;
-    }
-    /*
-    h1{
-    font-family: Helvetica, Arial;
-    color:#555555;
-    }
-
-    h2{
-      position: relative;
-      top: -1.5em; 
-      font-family: Helvetica, Arial;
-      font-weight: normal;
-      font-style: italic;
-      font-size: .8em;
       color:#222222;
     }
+
