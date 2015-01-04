@@ -17,10 +17,11 @@ function draw() {
   }
   //ellipse(mouseX, mouseY, 80, 80);
 
-  fill(1, 5);
+  fill(1, 2);
   noStroke();
-  rect(random(0,windowWidth), windowHeight*.5, 50, 50);
-  print("dd");
+  rect(random(0,windowWidth), windowHeight*.5+random(-3,3), 50, 50);
 }
+
+
 function mousePressed(){
 }

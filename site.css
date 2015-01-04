@@ -1,17 +1,23 @@
     body{
-      padding-left: 11em;
+      //padding-left: 11em;
       font-family: Verdana, Helvetica, Arial, sans-serif;
       color: black;
-      background-color: #E8E6A0
+      background-color: #E8E6FF
     }
 
     #header{
       position: absolute;
+      padding-left: 3em;
       top: 0;
       left:0;
       width: 500;
     }
     #header h1{
+      font-family: Helvetica, Arial;
+      color:#555555;
+    }
+    #header a{
+      text-decoration: none;
       font-family: Helvetica, Arial;
       color:#555555;
     }
@@ -51,15 +57,14 @@
     }
 
     #footer{
-
       font-family: serif;
       font-style: italic;
-       position: fixed;
-     height: 3em;
-     text-align: right;
-     padding-right: 2.5em;
+      position: fixed;
+      height: 3em;
+      text-align: right;
+      padding-right: 2.5em;
      
-     bottom: 1em;
+      bottom: 1em;
       width: 100%;
       right: 0;
       margin-top: 1em;
