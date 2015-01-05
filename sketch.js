@@ -1,7 +1,7 @@
 var mySound = new buzz.sound("rhodes_loop.wav");
-
+var canvas;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+ canvas= createCanvas(windowWidth, windowHeight);
   smooth();
   //mySound.play().fadeIn().loop();
   //mySound.play().fadeIn().loop();
