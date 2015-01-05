@@ -35,8 +35,6 @@
       list-style-type: none;
       padding-top: 2em;
       margin: 0;
-
-
     }
 
     #menu li{
@@ -70,13 +68,38 @@
       text-decoration: none;
     }
     #section a:link{
-color: #000000;
+      color: #000000;
     }
     #section a:visited{
       color: #000000;
-
     }
+/* Test de galería con css */
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
 
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
     #footer{
       font-family: serif;
       font-style: italic;
@@ -91,7 +114,6 @@ color: #000000;
       padding-top: 1em;
       list-style: none;
       border-top: thin dotted
-
     }
     #footer li{
       font-size: 1.1em;
@@ -113,7 +135,5 @@ color: #000000;
       position: absolute;
       color: red;
       border-top: thin dotted
-
-
     }
 
