@@ -92,25 +92,24 @@
             color: rgb(100, 100, 100);
 
     }
+
 /* Test de galería con css */
 div.img {
-  position: relative;
-   padding-left: 5em;
-    padding-right: 5em;
-    margin-top: 2em;
+    position: relative;
     left: 5em;
-    margin: 0px;
+    margin-bottom: 1em;
     padding: 5px;
-    border: 1px solid #0000ff;
+    /*padding-right: 5em;*/
+    border: 0px solid rgba(120, 120, 120, .8);
     height: auto;
-    /*width: auto;*/
     float: left;
     text-align: left;
 }
 
 div.img img {
     display: inline;
-  
+    width: 800px;
+    height: 150px;
     margin: 5px;
     border: 1px solid #ffffff;
 }
@@ -120,12 +119,23 @@ div.img a:hover img {
 }
 
 div.desc {
-  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     text-align: left;
-    font-weight: normal;
+    font-size: 1em;
     width: 100%;
     margin: 5px;
 }
+div.soporte{
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: .9em;
+    width: 100%;
+    margin: 5px;
+
+}
+
     #footer{
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
