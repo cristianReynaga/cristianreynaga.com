@@ -85,7 +85,7 @@
     }
     #section p{
       font-weight: 300;
-            color: rgb(100, 100, 100);
+      color: rgb(100, 100, 100);
 
     }
 
@@ -98,7 +98,7 @@ div.img {
     padding-left: 0px;
     padding-top: 0px;
     /*padding-right: 5em;*/
-    border: 0px solid rgba(120, 120, 120, .8);
+    border: 0px solid rgba(120, 120, 120, 1);
     height: auto;
     float: left;
     text-align: left;
@@ -110,10 +110,7 @@ div.img img {
     height: 180px;
     margin: 0px;
     border: 1px solid #ffffff;
-}
-
-div.img a:hover img {
-    border:1px solid #0000ff;
+    background-color: rgb(255, 0, 0);
 }
 
 div.desc {
@@ -131,6 +128,12 @@ div.desc {
 div.desc span{
   background-color: rgba(10, 10, 10, .7);
 }
+
+div.desc a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 div.soporte{
   font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -145,6 +148,10 @@ div.soporte{
 }
 div.soporte span{
   background-color: rgba(10, 10, 10, .7);
+}
+div.soporte a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
     #footer{
