@@ -6,7 +6,7 @@
     }
 
     #header{
-      position: absolute;
+      position: relative;
       height: 100px;
       padding-left: 3em;
       top: 0;
@@ -14,6 +14,7 @@
       width: 100%;
       padding-bottom: 1em;
       border-bottom: thin dotted;
+      border: 1px solid #FF0000;
 
     }
     #header h1{
@@ -35,6 +36,8 @@
       list-style-type: none;
       padding-top: 2em;
       margin: 0;
+            border: 1px solid #FF0000;
+
     }
 
     #menu li{
@@ -55,13 +58,14 @@
     }
 
     #section {
+      position: relative;
        font-family: serif;
       font-style: italic;
-      position: relative;
       padding-left: 3em;
       padding-right: 3em;
-      top: 10em;
+      top: 1em;
       list-style: none;
+      border: 1px solid #FF0000
 
     }
     #section a{
@@ -75,13 +79,14 @@
     }
 /* Test de galería con css */
 div.img {
+  position: relative;
     margin: 5px;
     padding: 5px;
     border: 1px solid #0000ff;
     height: auto;
     width: auto;
     float: left;
-    text-align: center;
+    text-align: left;
 }
 
 div.img img {
@@ -95,9 +100,9 @@ div.img a:hover img {
 }
 
 div.desc {
-    text-align: center;
+    text-align: left;
     font-weight: normal;
-    width: 120px;
+    width: 100%;
     margin: 5px;
 }
     #footer{
@@ -107,13 +112,14 @@ div.desc {
       height: 3em;
       text-align: right;
       padding-right: 2.5em;
-      bottom: 1em;
+    bottom: 0em;
       width: 100%;
       right: 0;
       margin-top: 1em;
       padding-top: 1em;
       list-style: none;
-      border-top: thin dotted
+     /* border-top: thin dotted;*/
+      background-color: rgba(255, 255, 255, .7);
     }
     #footer li{
       font-size: 1.1em;
