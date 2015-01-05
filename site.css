@@ -1,5 +1,5 @@
     body{
-      //padding-left: 11em;
+      /*padding-left: 11em;*/
       font-family: Verdana, Helvetica, Arial, sans-serif;
       color: black;
       background-color: #E8E6FF
@@ -9,9 +9,9 @@
       position: relative;
       height: 100px;
       padding-left: 3em;
-      top: 0;
-      left:0;
       width: 100%;
+      top: 0;
+      left: 0;
       padding-bottom: 1em;
       border-bottom: thin dotted;
       border: 1px solid #FF0000;
@@ -36,7 +36,7 @@
       list-style-type: none;
       padding-top: 2em;
       margin: 0;
-            border: 1px solid #FF0000;
+      border: 1px solid #FF0000;
 
     }
 
@@ -63,7 +63,8 @@
       font-style: italic;
       padding-left: 3em;
       padding-right: 3em;
-      top: 1em;
+      top: 0em;
+      width: 100%;
       list-style: none;
       border: 1px solid #FF0000
 
@@ -80,7 +81,7 @@
 /* Test de galería con css */
 div.img {
   position: relative;
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
     border: 1px solid #0000ff;
     height: auto;
