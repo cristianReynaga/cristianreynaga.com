@@ -1,4 +1,4 @@
-var mySound = new buzz.sound("rhodes_loop.wav");
+/*var mySound = new buzz.sound("rhodes_loop.wav");
 var canvas;
 function setup() {
  canvas= createCanvas(windowWidth, windowHeight);
@@ -24,4 +24,4 @@ function draw() {
 
 
 function mousePressed(){
-}
+}*/
