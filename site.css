@@ -10,16 +10,19 @@
       font-family: 'Open Sans', sans-serif;
       position: relative;
       height: 100px;
-      padding-left: 3em;
+      padding-top: 3em;
+      padding-left: 5em;
+      padding-bottom: 0em;
       width: 100%;
       top: 0;
       left: 0;
-      padding-bottom: 0em;
       border: 1px solid #FF0000;
 
     }
     #header h1{
+      text-align: left;
       font-weight: 300;
+      line-height: 10%;
       color:#555555;
     }
     #header a{
@@ -28,58 +31,60 @@
     }
     #header p{
       font-size: 12px;
+      text-align: left;
       text-transform: lowercase;
       letter-spacing: .28em;
-      line-height: -1em;
-      color:#555555;
+      line-height: 100%;
+      color:#888888;
     }
   
     #menu{
       position: absolute;
-      height: 100px;
       top: 8px;
-      right:0;
+      right:8px;
       width: 500;
       list-style-type: none;
-      padding-top: 2em;
-      margin: 0;
+      padding-right: 5em;
+      padding-top: 4em;
       border: 1px solid #FF0000;
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
+
     }
 
     #menu li{
+      text-align: right;
       display: inline;
-      background: white;
-      margin-right: 3em ;
-      padding-right: 1em;
-      border-right: 1em solid black
+      margin-right: 0em ;
+      word-spacing:3em;
+      text-transform: uppercase;
     }
     #menu a{
       text-decoration: none; 
     }
     #menu a:link{
-      color: blue
+      color: rgb(120, 120,120);
     }
     #menu a:visited{
-      color:purple;
+      color: rgb(120, 120,120);
     }
 
     #section {
       position: relative;
       font-family: serif;
-   /*   font-style: italic;*/
-   margin-top: 3em;
-      padding-left: 3em;
-      padding-right: 3em;
+      margin-top: 3em;
+      padding-left: 5em;
+      padding-right: 5em;
       top: 0em;
-      width: 100%;
       list-style: none;
       border: 1px solid #FF0000;
       font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
+      text-align: justify;
     }
     #section h1{
+      font-weight: 300;
+    }
+    #section p{
       font-weight: 300;
     }
 /* Test de galería con css */
@@ -111,19 +116,19 @@ div.desc {
     margin: 5px;
 }
     #footer{
-      font-family: serif;
-      font-style: italic;
+       font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
       position: fixed;
       height: 3em;
       text-align: right;
-      padding-right: 2.5em;
-    bottom: 0em;
+      padding-right: 6em;
+      bottom: 0em;
       width: 100%;
       right: 0;
       margin-top: 1em;
       padding-top: 1em;
       list-style: none;
-     /* border-top: thin dotted;*/
       background-color: rgba(255, 255, 255, .7);
     }
     #footer li{
