@@ -1,6 +1,7 @@
     body{
       color: black;
       background-color:rgb(240, 240, 240);
+      height: 100%;
     }
 
     #header{
@@ -172,6 +173,37 @@ div.soporte a{
   color: rgb(255, 255, 255);
 }
 
+/* Pruebo el footer...*/
+    
+    .wrapper{
+      min-height: 100%;
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto -4em;
+    }
+
+    .footer2, .push{
+      height: 4em;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      font-style: italic;
+      letter-spacing: .02em;
+      word-spacing: .2em;
+
+      text-align: right;
+      padding-top: 3em;
+      padding-right: 6em;
+
+      width: 100%;
+      right: 0;
+      margin-top: 1em;
+      padding-top: 1em;
+      list-style: none;
+      background-color: rgba(120, 100, 100, .15);
+      text-decoration: none;
+    }
+/*
     #footer{
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
@@ -186,25 +218,32 @@ div.soporte a{
       text-align: right;
       padding-top: 3em;
       padding-right: 6em;
-     /* bottom: 0em;*/
+     
       width: 100%;
       right: 0;
       margin-top: 1em;
       padding-top: 1em;
       list-style: none;
-      background-color: rgba(120, 100, 100, .15);
-    }
-    #footer li{
+     */
+    
+    
+
+    li.push{
       font-size: 1.1em;
       display: inline;
       color:#ffffff
     }
-    #footer a{
+    li.footer2{
+      font-size: 1.1em;
+      display: inline;
+      color:#ffffff
+    }
+    a.footer2{
       text-decoration: none; 
     }
-    #footer a:link{
+    a.footer2:link{
       color:#000000;
     }
-    #footer a:visited{
+    a.footer2:visited{
       color:#222222;
     }
