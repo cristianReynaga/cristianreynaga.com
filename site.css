@@ -110,9 +110,18 @@ div.img img {
     height: 180px;
     margin: 0px;
     border: 1px solid #ffffff;
-    background-color: rgb(255, 0, 0);
+    opacity: 1;
+   /* filter: brightness(50%);
+    -webkit-filter: brightness(-10%);  */
+
 }
 
+div.img img:hover {
+    opacity: .9;
+    /*filter: brightness(20%);  
+    -webkit-filter: brightness(0%); /* safari ok*/
+
+}
 div.desc {
     position: absolute;
     left:10px;
@@ -121,12 +130,13 @@ div.desc {
     font-weight: 400;
     text-align: left;
     font-size: 1.1em;
-    width: 100%;
+    width: auto;
     margin: 0px;
     color: rgb(255, 255, 255);
+
 }
 div.desc span{
-  background-color: rgba(10, 10, 10, .7);
+  background-color: rgba(10, 10, 10, .75);
 }
 
 div.desc a{
@@ -139,7 +149,7 @@ div.soporte{
     font-weight: 300;
     text-align: left;
     font-size: .9em;
-    width: 100%;
+    width: auto;
     margin: 0px;
     position: absolute;
     left:10px;
@@ -147,7 +157,7 @@ div.soporte{
     color: rgb(255, 255, 255);
 }
 div.soporte span{
-  background-color: rgba(10, 10, 10, .7);
+  background-color: rgba(10, 10, 10, .75);
 }
 div.soporte a{
   text-decoration: none;
