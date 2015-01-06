@@ -66,6 +66,7 @@
 
 /* Main content*/
     #section {
+      min-height: 100%;
       position: relative;
       font-family: serif;
       margin-top: 2em;
@@ -117,7 +118,7 @@ div.img img {
 }
 
 div.img img:hover {
-    opacity: .9;
+    opacity: .95;
     /*filter: brightness(20%);  
     -webkit-filter: brightness(0%); /* safari ok*/
 
@@ -132,7 +133,9 @@ div.desc {
     font-size: 1.1em;
     width: auto;
     margin: 0px;
+    letter-spacing: .03em;
     color: rgb(255, 255, 255);
+
 
 }
 div.desc span{
@@ -142,6 +145,9 @@ div.desc span{
 div.desc a{
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+div.desc a:hover{
+  opacity: .85;
 }
 
 div.soporte{
@@ -155,6 +161,8 @@ div.soporte{
     left:10px;
     bottom:1em;
     color: rgb(255, 255, 255);
+    letter-spacing: .03em;
+
 }
 div.soporte span{
   background-color: rgba(10, 10, 10, .75);
@@ -171,10 +179,12 @@ div.soporte a{
       font-style: italic;
       letter-spacing: .02em;
       word-spacing: .2em;
-      bottom: 0;
       position: fixed;
+
+      bottom: 0;
       height: 3em;
       text-align: right;
+      padding-top: 3em;
       padding-right: 6em;
      /* bottom: 0em;*/
       width: 100%;
@@ -198,11 +208,3 @@ div.soporte a{
     #footer a:visited{
       color:#222222;
     }
-    
-    #separator{
-      bottom: 3em;
-      position: absolute;
-      color: red;
-      border-top: thin dotted
-    }
-
