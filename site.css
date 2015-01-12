@@ -89,6 +89,14 @@
 
     }
 
+    #videoHolder{
+      position: relative;
+      margin-top: 2em;
+      padding-left: 5em;
+      padding-right: 5em;
+      top: 0em;
+    }
+
 /* Test de galería con css */
 div.img {
     position: relative;
