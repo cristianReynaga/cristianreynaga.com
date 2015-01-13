@@ -100,23 +100,16 @@
       color: rgb(120, 120, 200);
     }
 
-    .videoHolder{
+    #videoHolder{
       position: relative;
       margin-top: 2em;
       padding-left: 5em;
       padding-right: 5em;
       font-family: 'Open Sans', sans-serif;
-
       width: 800px;
       border: 1px solid red;
       }
-      /*
-     .videoHolder desc{
-      position: absolute;
-      right: 0px;
-
     
-    }*/
 
 /* Test de galería con css */
 div.img {
@@ -208,7 +201,7 @@ div.soporte a{
       width: 100%;
       right: 0;
       margin-top: 2em;
-      /*padding-top: 1em;*/
+      padding-top: 1em;
       list-style: none;
       background-color: rgba(180, 180, 180, .55);
     }
