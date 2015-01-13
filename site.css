@@ -91,14 +91,13 @@
 
     #section a{
       text-decoration: none;
+      font-weight: 300;
     }
     #section a:link{
-      font-weight: 300;
-      color: rgb(100, 100, 100);
+      color: rgb(120, 120, 200);
     }
-    #section a:visited{
-      font-weight: 300;
-      color: rgb(100, 100, 100);
+    #section a:visited{ 
+      color: rgb(120, 120, 200);
     }
 
     .videoHolder{
