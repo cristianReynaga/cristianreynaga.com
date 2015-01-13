@@ -46,6 +46,7 @@
       /*border: 1px solid #FF0000;*/
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
+
     }
     #menu li{
       text-align: right;
@@ -89,13 +90,23 @@
 
     }
 
-    #videoHolder{
+    .videoHolder{
       position: relative;
       margin-top: 2em;
       padding-left: 5em;
       padding-right: 5em;
-      top: 0em;
-    }
+      font-family: 'Open Sans', sans-serif;
+
+      width: 800px;
+      border: 1px solid red;
+      }
+      /*
+     .videoHolder desc{
+      position: absolute;
+      right: 0px;
+
+    
+    }*/
 
 /* Test de galería con css */
 div.img {
