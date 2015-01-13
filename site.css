@@ -87,7 +87,18 @@
     #section p{
       font-weight: 300;
       color: rgb(100, 100, 100);
+    }
 
+    #section a{
+      text-decoration: none;
+    }
+    #section a:link{
+      font-weight: 300;
+      color: rgb(100, 100, 100);
+    }
+    #section a:visited{
+      font-weight: 300;
+      color: rgb(100, 100, 100);
     }
 
     .videoHolder{
