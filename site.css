@@ -53,7 +53,7 @@
       display: inline;
       margin-right: 0em ;
       word-spacing:3em;
-      text-transform: uppercase;
+      text-transform: none;
     }
     #menu a{
       text-decoration: none; 
