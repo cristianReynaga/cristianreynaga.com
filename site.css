@@ -113,7 +113,9 @@
 
 /* Test de galería con css */
 .img {
-    position: relative;
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    float: left;
     left: 5em;
     margin-top: 0em;
     margin-bottom: 1em;
@@ -129,7 +131,7 @@
 .img img {
     display: inline;
     width: 800px;
-    height: auto;
+    height: 180px;
     margin: 0px;
     border: 1px solid #ffffff;
     opacity: .8;
@@ -144,10 +146,12 @@
     -webkit-filter: brightness(0%); /* safari ok*/
 
 }
-.desc {
-    position: absolute;
+.img p {
+
     left:10px;
     bottom:2em;
+        float: left;
+
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: left;
@@ -157,23 +161,23 @@
     color: rgb(255, 255, 255);
 
 }
-.desc span{
+.img  span{
   background-color: rgba(10, 10, 10, .75);
 }
 
-.desc a{
+.img  a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
 .soporte{
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    float: left;
     text-align: left;
     font-size: .9em;
     width: auto;
-    margin: 0px;
-    position: absolute;
+    
     left:10px;
     bottom:1em;
     color: rgb(255, 255, 255);
