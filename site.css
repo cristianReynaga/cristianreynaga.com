@@ -112,24 +112,24 @@
     
 
 /* Test de galería con css */
-div.img {
+.img {
     position: relative;
     left: 5em;
     margin-top: 0em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding-left: 0px;
     padding-top: 0px;
     /*padding-right: 5em;*/
-    border: 0px solid rgba(120, 120, 120, 1);
+    border: 1px solid rgba(255, 120, 120, 1);
     height: auto;
     float: left;
     text-align: left;
 }
 
-div.img img {
+.img img {
     display: inline;
     width: 800px;
-    height: 180px;
+    height: auto;
     margin: 0px;
     border: 1px solid #ffffff;
     opacity: .8;
@@ -138,13 +138,13 @@ div.img img {
 
 }
 
-div.img img:hover {
+.img img:hover {
     opacity: 1;
     /*filter: brightness(20%);  
     -webkit-filter: brightness(0%); /* safari ok*/
 
 }
-div.desc {
+.desc {
     position: absolute;
     left:10px;
     bottom:2em;
@@ -157,16 +157,16 @@ div.desc {
     color: rgb(255, 255, 255);
 
 }
-div.desc span{
+.desc span{
   background-color: rgba(10, 10, 10, .75);
 }
 
-div.desc a{
+.desc a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
-div.soporte{
+.soporte{
   font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     text-align: left;
@@ -178,10 +178,10 @@ div.soporte{
     bottom:1em;
     color: rgb(255, 255, 255);
 }
-div.soporte span{
+.soporte span{
   background-color: rgba(10, 10, 10, .75);
 }
-div.soporte a{
+.soporte a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
