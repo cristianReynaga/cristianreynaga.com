@@ -101,13 +101,13 @@
     }
 
     #videoHolder{
-      position: relative;
-      margin-top: 2em;
-      padding-left: 5em;
-      padding-right: 5em;
+      position: absolute;
+      margin-top: 0em;
+      padding-left: 0em;
+      padding-right: 0em;
       font-family: 'Open Sans', sans-serif;
-      width: 800px;
-      border: 1px solid red;
+      width: 100%;
+      /*border: 1px solid red;*/
       }
     
 
