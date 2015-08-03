@@ -132,14 +132,14 @@ div.img img {
     height: 180px;
     margin: 0px;
     border: 1px solid #ffffff;
-    opacity: .8;
+    opacity: 1;
    /* filter: brightness(50%);
     -webkit-filter: brightness(-10%);  */
 
 }
 
 div.img img:hover {
-    opacity: 1;
+    opacity: .8;
     /*filter: brightness(20%);  
     -webkit-filter: brightness(0%); /* safari ok*/
 
